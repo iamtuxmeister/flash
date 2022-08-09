@@ -43,14 +43,6 @@ First make sure that you've imported Flash everywhere when needed:
 import Flash
 ```
 
-### Adding the provider
-
-```swift
-public func configure(_ config: inout Config, _ env: inout Environment, _ services: inout Services) throws {
-    try services.register(FlashProvider())
-}
-```
-
 ### Adding the middleware
 
 You can either add the Flash middleware globally by doing:
